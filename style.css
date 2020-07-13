@@ -4,6 +4,31 @@ body {
   margin: 0;
 }
 
-h1 {
+h1, #featured-property, nav {
   text-align: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: coral;
+}
+
+#featured-property figcaption {
+  font-size: 0.75em;
+}
+
+#featured-property figure p {
+  width: 800px;
+  text-align: center;
+}
+
+#details {
+  display: block;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: cyan;
 }
